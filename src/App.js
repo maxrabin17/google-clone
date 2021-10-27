@@ -7,13 +7,12 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route path="/">
-            <h1>Home Page</h1>
-            <Home />
-          </Route>
           <Route path="/search">
             <h1>Search Page</h1>
-            <SearchPage />
+            {/* <SearchPage /> */}
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       </Router>
