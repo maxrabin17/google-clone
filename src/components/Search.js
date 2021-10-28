@@ -15,7 +15,7 @@ const Search = ({ hideButtons = false }) => {
     const handleSearch = e => {
         e.preventDefault();
         
-        console.log('hello world')
+        console.log('hello world', search)
         dispatch({
             type: actionTypes.SET_SEARCH_TERM,
             term: search
