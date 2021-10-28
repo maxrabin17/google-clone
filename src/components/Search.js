@@ -7,7 +7,7 @@ import { Button } from '@material-ui/core'
 import { useStateValue } from '../StateProvider';
 import { actionTypes } from '../reducer'
 
-const Search = ({ hideButtons = false }) => {
+const Search = ({hideButtons = false}) => {
     const [{}, dispatch] = useStateValue()
     const [search, setSearch] = useState("")
     const history = useHistory()
